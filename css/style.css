@@ -1,0 +1,85 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 80px 0;}
+/* Main CSS Stop */
+/* ===  Login Form Section CSS Start === */
+body, h2 {
+  font-weight: 300;
+}
+.section-title {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+.section-title p {
+	font-size: 18px;
+	color: lightgray;
+}
+.section-title h2 span {
+	color: orange;
+	font-weight: 700;
+	font-size: 90%;
+}
+.contact-us-form {
+  font-size: 17px;
+  font-weight: 400;
+}
+.form-element {
+  position: relative;
+}
+.form-element label {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.contact-us-form input[type="text"], .contact-us-form input[type="email"], .contact-us-form textarea {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 100%;
+  font-size: 14px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  transition: .3s;
+}
+.contact-us-form textarea {
+  max-height: 150px;
+}
+.contact-us-form input[type="submit"] {
+  float: right;
+  background: lightseagreen;
+  color: #fff;
+  border: navajowhite;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.small-text {
+  font-size: 12px;
+  margin: 0;
+  padding: 14px 0;
+}
+.small-text {
+}
+.contact-us-form input[type="text"]:focus, .contact-us-form input[type="email"]:focus, .contact-us-form textarea:focus {
+  background-color: #f0f0f0;
+}
+/* ===  Login Form Section CSS Stop === */
